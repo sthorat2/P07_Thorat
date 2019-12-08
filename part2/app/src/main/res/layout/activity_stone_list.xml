@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StoneList">
+<LinearLayout
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/item1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:textSize="13sp"
+                    android:text="PEBBLES "/>
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/pebbles"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="85dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/qtn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:textSize="13sp"
+                    android:hint="Enter Qty "/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$/lbs"/>
+                <EditText
+                    android:id="@+id/price1"
+                    android:text="120"
+                    android:inputType="none"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textAlignment="gravity"
+                    android:gravity="center"
+                    android:textColor="@color/deeppurple"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textSize="10sp"
+                    android:textStyle="italic|bold"
+                    android:text="Add To Cart"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/item2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:textSize="13sp"
+                    android:text="BASALT STONE "/>
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/basalt"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="85dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/qtn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:textSize="13sp"
+                    android:hint="Enter Qty "/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$/lbs"/>
+                <EditText
+                    android:id="@+id/price2"
+                    android:text="150"
+                    android:inputType="none"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textAlignment="gravity"
+                    android:gravity="center"
+                    android:textColor="@color/deeppurple"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textSize="10sp"
+                    android:textStyle="italic|bold"
+                    android:text="Add To Cart"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/item3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:textSize="13sp"
+
+                    android:text="GRANITE STONE "/>
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/granite"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="85dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/qtn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:textSize="13sp"
+                    android:hint="Enter Qty "/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$/lbs"/>
+                <EditText
+                    android:id="@+id/price3"
+                    android:text="180"
+                    android:inputType="none"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textAlignment="gravity"
+                    android:gravity="center"
+                    android:textColor="@color/deeppurple"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textSize="10sp"
+                    android:textStyle="italic|bold"
+                    android:text="Add To Cart"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/item4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:textSize="13sp"
+                    android:text="LIMESTONE "/>
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/limestone"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="85dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/qtn4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:textSize="13sp"
+                    android:hint="Enter Qty "/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$/lbs"/>
+                <EditText
+                    android:id="@+id/price4"
+                    android:text="200"
+                    android:inputType="none"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textAlignment="gravity"
+                    android:gravity="center"
+                    android:textColor="@color/deeppurple"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textSize="10sp"
+                    android:textStyle="italic|bold"
+                    android:text="Add To Cart"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="13sp"
+                    android:text="MARBLE STONE "/>
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/marble"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="85dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/qtn5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:textSize="13sp"
+                    android:hint="Enter Qty "/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$/lbs"/>
+                <EditText
+                    android:id="@+id/price5"
+                    android:text="220"
+                    android:inputType="none"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textAlignment="gravity"
+                    android:gravity="center"
+                    android:textColor="@color/deeppurple"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textSize="10sp"
+                    android:textStyle="italic|bold"
+                    android:text="Add To Cart"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>
